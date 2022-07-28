@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/montserrat/Montserrat-Black.ttf),
+        url(../fonts/montserrat/Montserrat-Bold.ttf),
+        url(../fonts/montserrat/Montserrat-Regular.ttf);
+    ;
+    font-family: 'roboto';
+    src: url(../fonts/roboto/Roboto-Black.ttf), 
+        url(../fonts/roboto/Roboto-Bold.ttf),
+        url(../fonts/roboto/Roboto-Regular.ttf);
+}
+body{
+    font-family: 'montserrat';
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    text-align: center;
+}
+#dp{
+    margin-top: 10px;
+    border-radius: 100%;
+    border-style: dotted;
+    width: auto;
+    height: 200px;
+    border: 10px groove #1C6EA4;
+}
+#garden,#weather,#konosuba{
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    
+}
+#stone{
+    width: auto;
+    height: 70px;
+}
+#vid, #console, #date{
+    width: auto;
+    height: 100px;
+}
+#title, #hobbies, #bstone{
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 20px;
+}
+#vl, #lol, #pubg, #ball{
+    width: auto;
+    height: 250px;
+}
+#social{
+    height: 65px;
+    width: auto;
+    padding: 10px;
+}
+hr{
+    border-width:10px;
+    color: black;
+    border: solid;
+}
+#name{
+    font-size: 30px;
+    font-weight: bold;
+}
+h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+h5{
+    font-weight: normal;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
